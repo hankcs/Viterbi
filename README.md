@@ -19,7 +19,7 @@ public static void main(String[] args)
  - About the alorithm
  See [Wiki][1]
 
-  [1]: http://www.hankcs.com/nlp/hmm-and-segmentation-tagging-named-entity-recognition.html
+  [1]: https://en.wikipedia.org/wiki/Viterbi_algorithm#Example
   
   
 Viterbi
