@@ -1,6 +1,30 @@
 Viterbi
 ========
 
+An implementation of HMM-Viterbi Algorithm
+----------------------
+
+ - How to Use
+ 
+```java
+public static void main(String[] args)
+{
+     int[] result = Viterbi.compute(observations, states, start_probability, transititon_probability, emission_probability);
+     for (int r : result)
+     {
+        System.out.print(Weather.values()[r] + " ");
+     }
+}
+```
+ - About the alorithm
+ See [Wiki][1]
+
+  [1]: http://www.hankcs.com/nlp/hmm-and-segmentation-tagging-named-entity-recognition.html
+  
+  
+Viterbi
+========
+
 通用维特比算法的Java实现
 ----------------------
 
