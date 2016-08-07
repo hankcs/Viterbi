@@ -1,16 +1,16 @@
 package com.hankcs.algorithm;
 
-import static com.hankcs.algorithm.Main.Weather.*;
-import static com.hankcs.algorithm.Main.Activity.*;
+import static com.hankcs.algorithm.WeatherExample.Weather.*;
+import static com.hankcs.algorithm.WeatherExample.Activity.*;
 
-public class Main
+public class WeatherExample
 {
-    static enum Weather
+    enum Weather
     {
         Rainy,
         Sunny,
     }
-    static enum Activity
+    enum Activity
     {
         walk,
         shop,
